@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/diego/sismic/M1E3"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="486" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+		<item value="463" key="DIALOG_HEIGHT"/>
+		<item value="441" key="DIALOG_X_ORIGIN"/>
+		<item value="63" key="DIALOG_Y_ORIGIN"/>
+		<item value="true" key="BUILD_NOW"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="com.ti.ccstudio.project.ui.wizards.project.NewCCSProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.ti.common.ui.new"/>
+		</list>
+	</section>
+</section>
