@@ -35,16 +35,16 @@ LOOPG:		inc		R5
 			mov.b	R7,R8
 			jnz		LOOP
 			ret
-LOOP:		dec 	R8
-			jz		LOOPG
-			inc		R6
-			mov.b	@R5, R10
-			mov.b	@R6, R11
-			cmp		R10, R11
-			jge		LOOP
+LOOP:		inc		R6
+			cmp.b	0(R5), 0(R6)
+			jge		FIM
 			mov.b	@R6, R9
 			mov.b	0(R5),0(R6)
 			mov.b	R9, 0(R5)
+FIM:		dec 	R8
+			jz		LOOPG
+			jmp		LOOP
+			nop
                                             
 
 ;-------------------------------------------------------------------------------
