@@ -1,7 +1,7 @@
 
 **** Build of configuration Debug for project M1E4 ****
 
-/home/diego/ti/ccs740/ccsv7/utils/bin/gmake -k -j 4 all -O 
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
  
 gmake[1]: 'M1E4.out' is up to date.
 

@@ -27,7 +27,7 @@ PE4:	mov		#0,R5
 		mov		#4,R6
 LOOP:	call	#subrot
 		dec		R6
-		jnz		#LOOP
+		jnz		LOOP
 		jmp		$
 		nop
 subrot:	add		#1,R5

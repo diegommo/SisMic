@@ -3750,3 +3750,275 @@ gmake[1]: 'Projeto1.2.out' is up to date.
 gmake[1]: 'Projeto1.2.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project M1E7 ****
+
+/home/diego/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/home/diego/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/M1E7" --include_path="/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "M1E7.out"
+Invoking: MSP430 Linker
+"/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"M1E7.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/home/diego/ti/ccsv7/ccs_base/msp430/include" -i"/home/diego/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="M1E7_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "M1E7.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+warning #10366-D: automatic library build: using library "/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib/rts430x_sc_sd_eabi.lib" for the first time, so it must be built.  This may take a few minutes.
+gmake[2]: warning: -jN forced in submake: disabling jobserver mode.
+[/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430 received a terminate signal]
+Makefile:1090: recipe for target '/tmp/TI_MKLIB5u9Rk9/OBJ/e_logf.obj' failed
+[/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/lnk430 received a terminate signal]
+makefile:136: recipe for target 'all' failed
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+[/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430 received a terminate signal]
+gmake[2]: *** [/tmp/TI_MKLIB5u9Rk9/OBJ/e_logf.obj] Error 2
+gmake: *** [all] Terminated
+
+**** Build of configuration Debug for project M1E7 ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "/home/diego/ti/ccsv7/utils/bin/gmake" is not found in PATH
+
+PATH=[/home/diego/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E7 ****
+
+/home/diego/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building target: "M1E7.out"
+Invoking: MSP430 Linker
+"/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"M1E7.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/home/diego/ti/ccsv7/ccs_base/msp430/include" -i"/home/diego/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="M1E7_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "M1E7.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+warning #10366-D: automatic library build: using library "/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib/rts430x_sc_sd_eabi.lib" for the first time, so it must be built.  This may take a few minutes.
+gmake[2]: warning: -jN forced in submake: disabling jobserver mode.
+[/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cg430 received a terminate signal]
+[/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430 received a terminate signal]
+[/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/lnk430 received a terminate signal]
+Makefile:1066: recipe for target '/tmp/TI_MKLIBreR9pd/OBJ/s_tanh.obj' failed
+[/home/diego/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430 received a terminate signal]
+makefile:136: recipe for target 'all' failed
+gmake[2]: *** [/tmp/TI_MKLIBreR9pd/OBJ/s_tanh.obj] Error 2
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [all] Terminated
+
+**** Build of configuration Debug for project M1E7 ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "/home/diego/ti/ccsv7/utils/bin/gmake" is not found in PATH
+
+PATH=[/home/diego/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project qq ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/opt/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/qq" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "qq.out"
+Invoking: MSP430 Linker
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"qq.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/opt/ti/ccsv7/ccs_base/msp430/include" -i"/opt/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="qq_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "qq.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+warning #10366-D: automatic library build: using library "/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib/rts430x_sc_sd_eabi.lib" for the first time, so it must be built.  This may take a few minutes.
+gmake[2]: warning: -jN forced in submake: disabling jobserver mode.
+Finished building target: "qq.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project qq ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'qq.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E4 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'M1E4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E4 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'M1E4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E7 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building target: "M1E7.out"
+Invoking: MSP430 Linker
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"M1E7.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/opt/ti/ccsv7/ccs_base/msp430/include" -i"/opt/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="M1E7_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "M1E7.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "M1E7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E7 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'M1E7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project PE3 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/opt/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/PE3" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+2 Assembly Errors, No Assembly Warnings
+
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 27: [E0004] Illegal un-relocatable operand
+	PE2:	mov.w	0xFFFF,R5
+
+"../main.asm", ERROR!   at line 28: [E0004] Illegal un-relocatable operand
+			mov.w	0x4321,R6
+
+
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project PE3 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/opt/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/PE3" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "PE3.out"
+Invoking: MSP430 Linker
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"PE3.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/opt/ti/ccsv7/ccs_base/msp430/include" -i"/opt/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="PE3_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "PE3.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "PE3.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project PE4 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/opt/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/PE4" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, No Assembly Warnings
+
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 30: [E0004] Illegal destination operand
+			jnz		#LOOP
+
+
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project PE4 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/opt/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/PE4" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "PE4.out"
+Invoking: MSP430 Linker
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"PE4.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/opt/ti/ccsv7/ccs_base/msp430/include" -i"/opt/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="PE4_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "PE4.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "PE4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E4 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'M1E4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E4 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'M1E4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project M1E7 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/opt/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/M1E7" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "M1E7.out"
+Invoking: MSP430 Linker
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"M1E7.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/opt/ti/ccsv7/ccs_base/msp430/include" -i"/opt/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="M1E7_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "M1E7.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "M1E7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Projeto1.2 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/opt/ti/ccsv7/ccs_base/msp430/include" --include_path="/home/diego/SisMic/Projeto1.2" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Projeto1.2.out"
+Invoking: MSP430 Linker
+"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Projeto1.2.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/opt/ti/ccsv7/ccs_base/msp430/include" -i"/opt/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Projeto1.2_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Projeto1.2.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Projeto1.2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Projeto1.2 ****
+
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'Projeto1.2.out' is up to date.
+
+**** Build Finished ****

@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker Unix v16.9.6                   
 ******************************************************************************
->> Linked Tue Mar 27 12:46:32 2018
+>> Linked Fri Mar 30 18:09:19 2018
 
 OUTPUT FILE NAME:   <Projeto1.2.out>
 ENTRY POINT SYMBOL: "RESET"  address: 00004400
@@ -19,7 +19,7 @@ MEMORY CONFIGURATION
   INFOB                 00001900   00000080  00000000  00000080  RWIX
   INFOA                 00001980   00000080  00000000  00000080  RWIX
   USBRAM                00001c00   00000800  00000000  00000800  RWIX
-  RAM                   00002400   00002000  0000000f  00001ff1  RWIX
+  RAM                   00002400   00002000  00000017  00001fe9  RWIX
   FLASH                 00004400   0000bb80  00000048  0000bb38  RWIX
   INT00                 0000ff80   00000002  00000000  00000002  RWIX
   INT01                 0000ff82   00000002  00000000  00000002  RWIX
@@ -93,8 +93,8 @@ SECTION ALLOCATION MAP
  output                                  attributes/
 section   page    origin      length       input sections
 --------  ----  ----------  ----------   ----------------
-.data      0    00002400    0000000f     
-                  00002400    0000000f     main.obj (.data)
+.data      0    00002400    00000017     
+                  00002400    00000017     main.obj (.data)
 
 .stack     0    00004400    00000000     
 
@@ -194,11 +194,11 @@ MODULE SUMMARY
        Module         code   ro data   rw data
        ------         ----   -------   -------
     ./
-       main.obj       64     2         15     
+       main.obj       64     2         23     
     +--+--------------+------+---------+---------+
-       Total:         64     2         15     
+       Total:         64     2         23     
                                               
-    /home/diego/ti/ccs740/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib/rts430x_sc_sd_eabi.lib
+    /opt/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.6.LTS/lib/rts430x_sc_sd_eabi.lib
        isr_trap.obj   8      0         0      
        int41.obj      0      2         0      
        int42.obj      0      2         0      
@@ -226,7 +226,7 @@ MODULE SUMMARY
        Total:         8      44        0      
                                               
     +--+--------------+------+---------+---------+
-       Grand Total:   72     46        15     
+       Grand Total:   72     46        23     
 
 
 GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
